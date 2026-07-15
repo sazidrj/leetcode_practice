@@ -14,7 +14,7 @@ Topic Tags
 
 Language
 
-C++
+Java
 
 Submission Date
 
@@ -22,15 +22,15 @@ Submission Date
 
 Problem URL
 
-https://leetcode.com/problems/number-of-islands/submissions/2069021614/
+https://leetcode.com/problems/number-of-islands/submissions/2069032938/
 
 Runtime
 
-25 ms
+3 ms
 
 Memory
 
-16.4 MB
+52.7 MB
 
 ## Notes
 

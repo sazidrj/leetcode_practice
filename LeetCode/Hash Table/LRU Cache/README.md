@@ -13,23 +13,23 @@ Topic Tags
 
 Language
 
-C++
+Java
 
 Submission Date
 
-2026-07-14
+2026-07-15
 
 Problem URL
 
-https://leetcode.com/problems/lru-cache/submissions/2067608612/
+https://leetcode.com/problems/lru-cache/submissions/2068960910/
 
 Runtime
 
-137 ms
+48 ms
 
 Memory
 
-186.9 MB
+132.6 MB
 
 ## Notes
 

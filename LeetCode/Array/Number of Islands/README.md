@@ -22,15 +22,15 @@ Submission Date
 
 Problem URL
 
-https://leetcode.com/problems/number-of-islands/submissions/687269813/
+https://leetcode.com/problems/number-of-islands/submissions/2069021614/
 
 Runtime
 
-68 ms
+25 ms
 
 Memory
 
-12.2 MB
+16.4 MB
 
 ## Notes
 

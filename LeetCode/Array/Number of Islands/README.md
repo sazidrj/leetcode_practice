@@ -14,7 +14,7 @@ Topic Tags
 
 Language
 
-Java
+Python3
 
 Submission Date
 
@@ -22,15 +22,15 @@ Submission Date
 
 Problem URL
 
-https://leetcode.com/problems/number-of-islands/submissions/2069032938/
+https://leetcode.com/problems/number-of-islands/submissions/2069039702/
 
 Runtime
 
-3 ms
+237 ms
 
 Memory
 
-52.7 MB
+21.6 MB
 
 ## Notes
 

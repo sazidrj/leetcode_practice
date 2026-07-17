@@ -19,7 +19,7 @@ Submission Date
 
 Problem URL
 
-https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/1847640498/
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/2071171259/
 
 Runtime
 
@@ -27,7 +27,7 @@ Runtime
 
 Memory
 
-94.4 MB
+94.7 MB
 
 ## Notes
 

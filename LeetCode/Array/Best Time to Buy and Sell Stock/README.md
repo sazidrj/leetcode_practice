@@ -11,7 +11,7 @@ Topic Tags
 
 Language
 
-C++
+Java
 
 Submission Date
 
@@ -19,15 +19,15 @@ Submission Date
 
 Problem URL
 
-https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/2071165693/
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/1847640498/
 
 Runtime
 
-5 ms
+1 ms
 
 Memory
 
-97.3 MB
+94.4 MB
 
 ## Notes
 

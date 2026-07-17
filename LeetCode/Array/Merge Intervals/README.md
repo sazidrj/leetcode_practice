@@ -11,7 +11,7 @@ Topic Tags
 
 Language
 
-Java
+Python3
 
 Submission Date
 
@@ -19,15 +19,15 @@ Submission Date
 
 Problem URL
 
-https://leetcode.com/problems/merge-intervals/submissions/2071141532/
+https://leetcode.com/problems/merge-intervals/submissions/2071149800/
 
 Runtime
 
-8 ms
+7 ms
 
 Memory
 
-49.2 MB
+23.2 MB
 
 ## Notes
 

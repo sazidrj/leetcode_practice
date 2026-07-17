@@ -11,7 +11,7 @@ Topic Tags
 
 Language
 
-C++
+Java
 
 Submission Date
 
@@ -19,15 +19,15 @@ Submission Date
 
 Problem URL
 
-https://leetcode.com/problems/merge-intervals/submissions/2071131905/
+https://leetcode.com/problems/merge-intervals/submissions/2071141532/
 
 Runtime
 
-9 ms
+8 ms
 
 Memory
 
-23.8 MB
+49.2 MB
 
 ## Notes
 

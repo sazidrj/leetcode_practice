@@ -12,7 +12,7 @@ Topic Tags
 
 Language
 
-Java
+Python3
 
 Submission Date
 
@@ -20,15 +20,15 @@ Submission Date
 
 Problem URL
 
-https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/submissions/2072614632/
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/submissions/2072624812/
 
 Runtime
 
-8 ms
+47 ms
 
 Memory
 
-56.2 MB
+36 MB
 
 ## Notes
 

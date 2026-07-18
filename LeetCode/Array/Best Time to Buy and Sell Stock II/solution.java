@@ -1,37 +1,29 @@
 class Solution {
-  public int dpFunction(int[] prices, int buy, int i, int n, int[][] dp){
-          if(i == n)
-              return 0;
+    public int solve(int[] prices, int i, int n, int buy, int[][] dp){
+        if(i >= n) return 0;
 
-          if(dp[i][buy] != -1){
-              return dp[i][buy];
-          }
+        if(dp[i][buy] != -1) return dp[i][buy];
+        int max_profit = 0;
 
-          int profit = 0;
+        if(buy == 1){
+            max_profit = Math.max(-prices[i] + solve(prices, i+1, n, 0, dp), solve(prices, i+1, n, 1, dp));
+        }else{
+            max_profit = Math.max(prices[i] + solve(prices, i, n, 1, dp), solve(prices, i+1, n, 0, dp));
+        }
 
-          if(buy == 1){
-               profit = Math.max((-prices[i] + dpFunction(prices,0,i+1,n, dp)),
-                        dpFunction(prices, 1, i+1, n,dp));
-          }else{
-               profit = Math.max((prices[i] + dpFunction(prices, 1, i+1, n,dp)),
-                                 dpFunction(prices, 0, i+1, n,dp) );
-          }
+        dp[i][buy] = max_profit;
 
-          dp[i][buy] = profit;
-
-          return dp[i][buy];
+        return dp[i][buy];
     }
 
     public int maxProfit(int[] prices) {
         int n = prices.length;
-        int[][] dp = new int[n][2];
+        int [][] dp = new int[n][2];
 
-        for(int[] row : dp){
+        for(int[] row: dp){
             Arrays.fill(row, -1);
         }
 
-
-        int ans = dpFunction(prices, 1,0,n, dp);
-        return ans;
+        return solve(prices, 0, n, 1, dp);
     }
 }

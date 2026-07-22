@@ -20,15 +20,15 @@ Submission Date
 
 Problem URL
 
-https://leetcode.com/problems/maximum-subarray/submissions/1847626495/
+https://leetcode.com/problems/maximum-subarray/submissions/2077572876/
 
 Runtime
 
-98 ms
+47 ms
 
 Memory
 
-33 MB
+31.7 MB
 
 ## Notes
 

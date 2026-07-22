@@ -12,7 +12,7 @@ Topic Tags
 
 Language
 
-Java
+Python3
 
 Submission Date
 
@@ -20,15 +20,15 @@ Submission Date
 
 Problem URL
 
-https://leetcode.com/problems/longest-common-prefix/submissions/1942088922/
+https://leetcode.com/problems/longest-common-prefix/submissions/1942076203/
 
 Runtime
 
-1 ms
+3 ms
 
 Memory
 
-43.4 MB
+19.5 MB
 
 ## Notes
 

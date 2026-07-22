@@ -1,41 +1,69 @@
 class Solution {
 public:
-    string longestCommonPrefix(vector<string>& strs) {
-        if(strs.size() == 0){
-            return "";
-        }
-        if(strs.size() == 1){
-            return strs[0];
+    class Node{
+        public:
+            char data;
+            Node* children[26];
+            bool isTerminal;
+            int childCount;
+
+            Node(char ch){
+                data = ch;
+
+                for(int i = 0; i<26; i++){
+                    children[i] = NULL;
+                }
+
+                isTerminal = false;
+                childCount = 0;
+            }
+    };
+
+    Node* root;
+
+    void insertTrie(string word){
+        Node* it = root;
+
+        for(char ch: word){
+            if(!it->children[ch-'a']){
+                it->children[ch-'a'] = new Node(ch);
+                it->childCount += 1;
+            }
+            it = it->children[ch-'a'];
         }
 
-        return longestCommonPrefix(strs, 0, strs.size()-1);
+        it->isTerminal = true;
     }
 
-    string longestCommonPrefix(vector<string> &strs, int l, int r){
-        if(l == r){
-            return strs[l];
-        }
-        
-        int mid = (l + r)/ 2;
+    string searchTrie(string word){
+        Node* it = root;
+        string ans = "";
 
-        string left = longestCommonPrefix(strs, l, mid);
-        string right = longestCommonPrefix(strs, mid+1, r);
-        string ans = commonPrefix(left, right);
+        for(char ch: word){
+            if(it->childCount != 1){
+                return ans;
+            }
+            it = it->children[ch-'a'];
+            ans += ch;
+
+            if(it->isTerminal == true){
+                return ans;
+            }
+        }
 
         return ans;
     }
 
-    string commonPrefix(string &left, string &right){
-        
-        int n1 = left.size();
-        int n2 = right.size();
-        string ans = "";
-        for(int i = 0; i<min(n1, n2); i++){
-            if(left[i] != right[i]){
-                return left.substr(0, i);
-            }
+    string longestCommonPrefix(vector<string>& strs) {
+        root = new Node('\0');
+
+        for(int i = 0; i<strs.size(); i++){
+            if(strs[i].size() == 0) return "";
+            insertTrie(strs[i]);
         }
 
-        return left.substr(0, min(n1, n2));
+        return searchTrie(strs[0]);
+
+        
     }
 };

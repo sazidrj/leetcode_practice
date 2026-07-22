@@ -1,38 +1,32 @@
 class Node:
-    def __init__(self,ch):
+    def __init__(self, ch):
         self.data = ch
         self.children = [None]*26
         self.isTerminal = False
         self.childCount = 0
 
+    
 class Solution:
-
-    def insertTrie(self, word):
+    def insertTrie(self, word: str):
         it = self.root
 
         for ch in word:
-            index = ord(ch) - ord('a')
-
-            if it.children[index] is None:
-                child = Node(ch)
-                it.children[index] = child
+            if it.children[ord(ch) - ord('a')] is None:
+                it.children[ord(ch) - ord('a')] = Node(ch)
                 it.childCount += 1
-            
-            it = it.children[index]
+            it = it.children[ord(ch) - ord('a')]
         
         it.isTerminal = True
-
-    def searchTrie(self, word):
+    
+    def searchTrie(self, word:str):
         it = self.root
         ans = ""
 
         for ch in word:
-            index = ord(ch) - ord('a')
-
             if it.childCount != 1:
                 return ans
             
-            it = it.children[index]
+            it = it.children[ord(ch) - ord('a')]
             ans += ch
 
             if it.isTerminal == True:
@@ -40,17 +34,20 @@ class Solution:
         
         return ans
             
-    
+
     def longestCommonPrefix(self, strs: List[str]) -> str:
         if not strs:
             return ""
+        
+        self.root = Node('\0')
 
-        self.root = Node('/0')
-
-        for word in strs:
-            if word == "":
+        for str in strs:
+            if not str:
                 return ""
-            self.insertTrie(word)
 
+            self.insertTrie(str)
+        
         return self.searchTrie(strs[0])
+
+
         

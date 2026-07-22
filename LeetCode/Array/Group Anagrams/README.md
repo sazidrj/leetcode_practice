@@ -13,7 +13,7 @@ Topic Tags
 
 Language
 
-Java
+Python3
 
 Submission Date
 
@@ -21,15 +21,15 @@ Submission Date
 
 Problem URL
 
-https://leetcode.com/problems/group-anagrams/submissions/2077429865/
+https://leetcode.com/problems/group-anagrams/submissions/2077446522/
 
 Runtime
 
-9 ms
+45 ms
 
 Memory
 
-49.6 MB
+22.1 MB
 
 ## Notes
 

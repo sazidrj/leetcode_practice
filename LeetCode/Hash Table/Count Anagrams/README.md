@@ -14,7 +14,7 @@ Topic Tags
 
 Language
 
-Java
+Python3
 
 Submission Date
 
@@ -22,15 +22,15 @@ Submission Date
 
 Problem URL
 
-https://leetcode.com/problems/count-anagrams/submissions/2077509965/
+https://leetcode.com/problems/count-anagrams/submissions/2077559862/
 
 Runtime
 
-81 ms
+835 ms
 
 Memory
 
-50 MB
+23.8 MB
 
 ## Notes
 

@@ -20,15 +20,15 @@ Submission Date
 
 Problem URL
 
-https://leetcode.com/problems/longest-common-prefix/submissions/1942076203/
+https://leetcode.com/problems/longest-common-prefix/submissions/2077603566/
 
 Runtime
 
-3 ms
+7 ms
 
 Memory
 
-19.5 MB
+19.3 MB
 
 ## Notes
 

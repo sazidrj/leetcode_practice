@@ -13,7 +13,7 @@ Topic Tags
 
 Language
 
-C++
+Java
 
 Submission Date
 
@@ -21,15 +21,15 @@ Submission Date
 
 Problem URL
 
-https://leetcode.com/problems/group-anagrams/submissions/2077199361/
+https://leetcode.com/problems/group-anagrams/submissions/2077429865/
 
 Runtime
 
-28 ms
+9 ms
 
 Memory
 
-30.8 MB
+49.6 MB
 
 ## Notes
 

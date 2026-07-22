@@ -1,33 +1,34 @@
 class Solution {
 public:
-    string countingSort(string s){
-  int freq[26] = {0};
-  for(char c : s){
-       freq[c-'a']++;
-  }
+    string helper(string str){
+        vector<int> freq(26, 0);
 
-  string str;
+        for(char ch: str){
+            freq[ch-'a']++;
+        }
 
-  for(int i = 0; i<26; i++){
-    str += string(freq[i], i+'a');
-  }
-  return str;
-}
+        string res = "";
 
-vector<vector<string>> groupAnagrams(vector<string> &strs)
-{
-   unordered_map<string, vector<string>> mapAnagrams;
+        for(int i=0; i<26; i++){
+            res += string(freq[i], i+'a');
+        }
 
-   for(string s : strs){
-      mapAnagrams[countingSort(s)].push_back(s);
-   }
+        return res;
+    }
 
-   vector<vector<string>> ans;
+    vector<vector<string>> groupAnagrams(vector<string>& strs) {
+        int n = strs.size();
+        vector<vector<string>> res;
+        unordered_map<string, vector<string>> mp;
 
-   for(auto m : mapAnagrams){
-       ans.push_back(m.second);
-   }
+        for(auto str: strs){
+            mp[helper(str)].push_back(str);
+        }
 
-   return ans;
-}
+        for(auto m: mp){
+            res.push_back(m.second);
+        }
+
+        return res;
+    }
 };

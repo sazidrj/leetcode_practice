@@ -21,15 +21,15 @@ Submission Date
 
 Problem URL
 
-https://leetcode.com/problems/group-anagrams/submissions/662254366/
+https://leetcode.com/problems/group-anagrams/submissions/2077199361/
 
 Runtime
 
-60 ms
+28 ms
 
 Memory
 
-20.6 MB
+30.8 MB
 
 ## Notes
 

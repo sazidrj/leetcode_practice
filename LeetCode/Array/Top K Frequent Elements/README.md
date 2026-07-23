@@ -17,7 +17,7 @@ Topic Tags
 
 Language
 
-Java
+Python3
 
 Submission Date
 
@@ -25,15 +25,15 @@ Submission Date
 
 Problem URL
 
-https://leetcode.com/problems/top-k-frequent-elements/submissions/2078693947/
+https://leetcode.com/problems/top-k-frequent-elements/
 
 Runtime
 
-13 ms
+7 ms
 
 Memory
 
-47.4 MB
+22.7 MB
 
 ## Notes
 

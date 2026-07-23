@@ -25,15 +25,15 @@ Submission Date
 
 Problem URL
 
-https://leetcode.com/problems/top-k-frequent-elements/submissions/704506705/
+https://leetcode.com/problems/top-k-frequent-elements/submissions/2078679544/
 
 Runtime
 
-17 ms
+1 ms
 
 Memory
 
-15.6 MB
+18.1 MB
 
 ## Notes
 

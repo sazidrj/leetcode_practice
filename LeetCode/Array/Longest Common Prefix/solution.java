@@ -1,70 +1,65 @@
 class Solution {
-    class Node{
+    static class Node{
         char data;
-        Node children[] = new Node[26];
-        boolean isTerminal = false;
-        int childCount = 0;
+        Node[] children = new Node[26];
+        boolean isTerminal;
+        int childCount;
 
         Node(char ch){
-            data = ch;
+            this.data = ch;
             for(int i = 0; i<26; i++){
                 children[i] = null;
             }
-            isTerminal = false;
-            childCount = 0;
+
+            this.isTerminal = false;
+            this.childCount = 0;
         }
     }
 
-    Node root;
+    static Node root;
 
-    void insertTrie(String word){
+    public static void insertTrie(String word){
         Node it = root;
 
         for(char ch: word.toCharArray()){
-            int index = ch - 'a';
-
-            if(it.children[index] == null){
-                Node child = new Node(ch);
-                it.children[index] = child;
+            if(it.children[ch-'a'] == null){
+                it.children[ch-'a'] = new Node(ch);
                 it.childCount++;
             }
-            it = it.children[index];
+            it = it.children[ch-'a'];
         }
 
         it.isTerminal = true;
     }
 
-    String searchTrie(String word){
+    public static String searchTrie(String word){
         Node it = root;
-        StringBuilder ans = new StringBuilder();
-
-        for (char ch: word.toCharArray()){
-            int index = ch - 'a';
-
+        StringBuilder stb = new StringBuilder();
+        for(char ch: word.toCharArray()){
             if(it.childCount != 1){
-                return ans.toString();
+                return stb.toString();
             }
-            it = it.children[index];
-            ans.append(ch);
 
+            it = it.children[ch-'a'];
+            stb.append(ch);
+            
             if(it.isTerminal == true){
-                return ans.toString();
+                return stb.toString();
             }
-        }
 
-        return ans.toString();
+            
+        }
+        return stb.toString();
     }
 
     public String longestCommonPrefix(String[] strs) {
-        if(strs.length == 0){
-            return "";
-        }
-
         root = new Node('\0');
 
-        for(String word: strs){
-            if (word.equals("")) return "";
-            insertTrie(word);
+        for(int i = 0; i<strs.length; i++){
+            if(strs[i].length() == 0){
+                return "";
+            }
+            insertTrie(strs[i]);
         }
 
         return searchTrie(strs[0]);

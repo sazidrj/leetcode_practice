@@ -12,23 +12,23 @@ Topic Tags
 
 Language
 
-C++
+Python3
 
 Submission Date
 
-2026-07-13
+2026-07-23
 
 Problem URL
 
-https://leetcode.com/problems/3sum/
+https://leetcode.com/problems/3sum/submissions/1852984776/
 
 Runtime
 
-39 ms
+595 ms
 
 Memory
 
-29 MB
+20.6 MB
 
 ## Notes
 

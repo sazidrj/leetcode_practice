@@ -17,7 +17,7 @@ Topic Tags
 
 Language
 
-Python3
+C++
 
 Submission Date
 
@@ -25,15 +25,15 @@ Submission Date
 
 Problem URL
 
-https://leetcode.com/problems/top-k-frequent-elements/submissions/2078722860/
+https://leetcode.com/problems/top-k-frequent-elements/
 
 Runtime
 
-7 ms
+6 ms
 
 Memory
 
-22.8 MB
+18 MB
 
 ## Notes
 

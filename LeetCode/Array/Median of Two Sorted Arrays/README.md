@@ -20,7 +20,7 @@ Submission Date
 
 Problem URL
 
-https://leetcode.com/problems/median-of-two-sorted-arrays/submissions/1940147135/
+https://leetcode.com/problems/median-of-two-sorted-arrays/submissions/2078650795/
 
 Runtime
 

@@ -12,7 +12,7 @@ Topic Tags
 
 Language
 
-Python3
+C++
 
 Submission Date
 
@@ -20,15 +20,15 @@ Submission Date
 
 Problem URL
 
-https://leetcode.com/problems/rotting-oranges/submissions/2079692258/
+https://leetcode.com/problems/rotting-oranges/submissions/2079705586/
 
 Runtime
 
-0 ms
+3 ms
 
 Memory
 
-19.3 MB
+16.8 MB
 
 ## Notes
 

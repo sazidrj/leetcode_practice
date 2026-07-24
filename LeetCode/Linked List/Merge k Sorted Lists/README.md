@@ -13,7 +13,7 @@ Topic Tags
 
 Language
 
-Python3
+Java
 
 Submission Date
 
@@ -21,15 +21,15 @@ Submission Date
 
 Problem URL
 
-https://leetcode.com/problems/merge-k-sorted-lists/submissions/2079910925/
+https://leetcode.com/problems/merge-k-sorted-lists/submissions/2079921071/
 
 Runtime
 
-11 ms
+4 ms
 
 Memory
 
-22.9 MB
+47 MB
 
 ## Notes
 

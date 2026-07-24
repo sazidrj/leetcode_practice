@@ -14,7 +14,7 @@ Topic Tags
 
 Language
 
-C++
+Java
 
 Submission Date
 
@@ -22,15 +22,15 @@ Submission Date
 
 Problem URL
 
-https://leetcode.com/problems/sliding-window-maximum/submissions/1117342750/
+https://leetcode.com/problems/sliding-window-maximum/submissions/2079765947/
 
 Runtime
 
-190 ms
+26 ms
 
 Memory
 
-135.2 MB
+143.2 MB
 
 ## Notes
 

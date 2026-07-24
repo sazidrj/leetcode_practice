@@ -1,51 +1,57 @@
 class Solution {
 public:
     int orangesRotting(vector<vector<int>>& grid) {
-        if(grid.empty()) 
+        if(grid.size() == 0){
             return 0;
-        
-        int r = grid.size();
-        int c = grid[0].size(); 
-        int days = 0, tot = 0, cnt = 0;
-        
-        queue<pair<int,int>> rottenQueue;
-        
-        for(int i = 0; i<r; i++){
-            for(int j = 0; j<c; j++){
+        }
+        int n = grid.size();
+        int m = grid[0].size();
+
+        queue<pair<int,int>> rotten_queue;
+
+        int total_oranges = 0;
+        int cnt = 0;
+        int minutes = 0;
+
+        for(int i = 0; i<n; i++){
+            for(int j = 0; j<m; j++){
                 if(grid[i][j] != 0){
-                    tot++;
+                    total_oranges += 1;
                 }
                 if(grid[i][j] == 2){
-                    rottenQueue.push({i,j});
+                    rotten_queue.push({i, j});
                 }
             }
         }
-        
+
         int dx[4] = {0,0,1,-1};
         int dy[4] = {1,-1,0,0};
-        
-        while(!rottenQueue.empty()){
-            int k = rottenQueue.size();
+
+        while(!rotten_queue.empty()){
+            int k = rotten_queue.size();
             cnt += k;
+
             while(k--){
-                 int x = rottenQueue.front().first, y = rottenQueue.front().second;
-                 rottenQueue.pop();
-                 for(int i = 0; i<4; i++){
-                int nx = x+dx[i], ny = y+dy[i];
-                if(nx<0 || ny < 0 || nx >= r || ny >= c || grid[nx][ny] != 1) 
-                    continue;
-                
-                grid[nx][ny] = 2;
-                rottenQueue.push({nx,ny});
+                int x = rotten_queue.front().first;
+                int y = rotten_queue.front().second;
+                rotten_queue.pop();
+                for(int i = 0; i<4; i++){
+                    int nx = x + dx[i];
+                    int ny = y + dy[i];
+
+                    if (nx < 0 || nx >= n || ny < 0 || ny >= m || grid[nx][ny] != 1)
+                        continue;
+                    
+                    grid[nx][ny] = 2;
+                    rotten_queue.push({nx, ny});
+                }
             }
-       
+            if(!rotten_queue.empty())
+                minutes += 1;
+
         }
+
+        return cnt == total_oranges ? minutes : -1;
         
-        if(!rottenQueue.empty())
-            days++;
     }
-        
-           return tot == cnt ? days : -1;
-    }
-    
 };

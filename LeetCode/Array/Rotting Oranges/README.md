@@ -12,7 +12,7 @@ Topic Tags
 
 Language
 
-C++
+Java
 
 Submission Date
 
@@ -20,15 +20,15 @@ Submission Date
 
 Problem URL
 
-https://leetcode.com/problems/rotting-oranges/submissions/2079705586/
+https://leetcode.com/problems/rotting-oranges/submissions/2079719408/
 
 Runtime
 
-3 ms
+1 ms
 
 Memory
 
-16.8 MB
+44 MB
 
 ## Notes
 

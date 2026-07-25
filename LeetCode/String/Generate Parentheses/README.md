@@ -20,15 +20,15 @@ Submission Date
 
 Problem URL
 
-https://leetcode.com/problems/generate-parentheses/submissions/655213245/
+https://leetcode.com/problems/generate-parentheses/submissions/2080178359/
 
 Runtime
 
-7 ms
+0 ms
 
 Memory
 
-13.6 MB
+15.5 MB
 
 ## Notes
 

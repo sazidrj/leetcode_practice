@@ -22,15 +22,15 @@ Submission Date
 
 Problem URL
 
-https://leetcode.com/problems/kth-largest-element-in-an-array/submissions/1242579331/
+https://leetcode.com/problems/kth-largest-element-in-an-array/submissions/2080354826/
 
 Runtime
 
-86 ms
+4 ms
 
 Memory
 
-77.3 MB
+69 MB
 
 ## Notes
 

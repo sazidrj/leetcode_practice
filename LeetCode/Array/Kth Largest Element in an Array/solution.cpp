@@ -1,32 +1,45 @@
 class Solution {
 public:
-    
-    int quickSelect(vector<int> &nums, int k){
-        int pivot = nums[rand() % nums.size()];
+    int partition(vector<int> &nums, int left, int right, int pivot_index){
+        int pivot = nums[pivot_index];
+        int i = left;
+        int j = right;
 
-        vector<int> left, mid, right;
+        while (i <= j) {
+            while (nums[i] < pivot) i++;
+            while (nums[j] > pivot) j--;
 
-        for(int num: nums){
-            if(num > pivot){
-                left.push_back(num);
-            }else if(num < pivot){
-                right.push_back(num);
-            }else{
-                mid.push_back(num);
+            if (i <= j) {
+                swap(nums[i], nums[j]);
+                i++;
+                j--;
             }
         }
+        return i; // Split index
+    }
 
-        if(k <= left.size()){
-            return quickSelect(left, k);
-        }
-        if(left.size() + mid.size() < k){
-            return quickSelect(right, k - left.size() - mid.size());
+    int quickselect(vector<int> &nums, int left, int right, int k) {
+        // Base case: range collapsed to 1 element
+        if (left >= right) {
+            return nums[left];
         }
 
-        return pivot;
+        int pivot_index = left + rand() % (right - left + 1);
+
+        int split = partition(nums, left, right, pivot_index);
+
+        // Recurse into the appropriate half
+        if (k < split) {
+            return quickselect(nums, left, split - 1, k);
+        } else {
+            return quickselect(nums, split, right, k); // Fix: range starts at 'split', not 'split + 1'
+        }
     }
 
     int findKthLargest(vector<int>& nums, int k) {
-        return quickSelect(nums, k);
+        int left = 0;
+        int right = nums.size() - 1;
+
+        return quickselect(nums, left, right, nums.size() - k);
     }
 };

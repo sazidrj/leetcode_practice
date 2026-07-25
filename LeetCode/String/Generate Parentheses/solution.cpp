@@ -1,30 +1,29 @@
 class Solution {
 public:
- void helper(string s, int left, int right, vector<string>& ans){
-     if(left == 0 and right == 0)
-        {
-          ans.push_back(s);
-          return;
+    void solve(string cur, int open,  int close, vector<string> &res){
+        if(open == 0 and close == 0) {
+            res.push_back(cur);
+            return;
+        }
+        
+        if(open > 0){
+            solve(cur + '(', open-1, close+1, res);
         }
 
-     if(left > 0){
-          helper(s + "(", left-1, right+1, ans);
-     }
+        if(close > 0){
+            solve(cur + ')', open, close-1, res);
+        } 
+    }
 
-     if(right > 0){
-         helper(s+")", left, right-1, ans);
-     }
-}
+    vector<string> generateParenthesis(int n) {
+        string cur = "";
+        vector<string> res;
+        int open = n, close = 0;
+
+        solve(cur, open, close, res);
+
+        return res;
 
 
-vector<string> generateParenthesis(int n) {
-     string s = "";
-     int left = n, right = 0;
-
-     vector<string> ans;
-
-     helper(s,left,right,ans);
-
-     return ans;          
-}
+    }
 };

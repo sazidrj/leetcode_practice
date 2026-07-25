@@ -12,7 +12,7 @@ Topic Tags
 
 Language
 
-Java
+Python3
 
 Submission Date
 
@@ -20,15 +20,15 @@ Submission Date
 
 Problem URL
 
-https://leetcode.com/problems/generate-parentheses/submissions/2080180514/
+https://leetcode.com/problems/generate-parentheses/submissions/2080181693/
 
 Runtime
 
-2 ms
+0 ms
 
 Memory
 
-44.5 MB
+19.4 MB
 
 ## Notes
 

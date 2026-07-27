@@ -13,7 +13,7 @@ Topic Tags
 
 Language
 
-C++
+Python3
 
 Submission Date
 
@@ -21,15 +21,15 @@ Submission Date
 
 Problem URL
 
-https://leetcode.com/problems/course-schedule/submissions/702193608/
+https://leetcode.com/problems/course-schedule/submissions/2083785091/
 
 Runtime
 
-50 ms
+8 ms
 
 Memory
 
-13.9 MB
+20.5 MB
 
 ## Notes
 

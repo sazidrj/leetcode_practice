@@ -11,7 +11,7 @@ Topic Tags
 
 Language
 
-C++
+Python3
 
 Submission Date
 
@@ -19,15 +19,15 @@ Submission Date
 
 Problem URL
 
-https://leetcode.com/problems/merge-two-sorted-lists/submissions/590541709/
+https://leetcode.com/problems/merge-two-sorted-lists/submissions/2083636605/
 
 Runtime
 
-8 ms
+0 ms
 
 Memory
 
-14.9 MB
+19.3 MB
 
 ## Notes
 

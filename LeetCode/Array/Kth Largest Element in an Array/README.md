@@ -18,11 +18,11 @@ C++
 
 Submission Date
 
-2026-07-25
+2026-07-27
 
 Problem URL
 
-https://leetcode.com/problems/kth-largest-element-in-an-array/submissions/2080354826/
+https://leetcode.com/problems/kth-largest-element-in-an-array/solutions/
 
 Runtime
 

@@ -12,7 +12,7 @@ Topic Tags
 
 Language
 
-Java
+C++
 
 Submission Date
 
@@ -20,15 +20,15 @@ Submission Date
 
 Problem URL
 
-https://leetcode.com/problems/subarray-sum-equals-k/submissions/685865575/
+https://leetcode.com/problems/subarray-sum-equals-k/submissions/2083674612/
 
 Runtime
 
-31 ms
+51 ms
 
 Memory
 
-62.9 MB
+45.5 MB
 
 ## Notes
 

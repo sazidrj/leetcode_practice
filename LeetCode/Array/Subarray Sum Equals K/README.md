@@ -20,15 +20,15 @@ Submission Date
 
 Problem URL
 
-https://leetcode.com/problems/subarray-sum-equals-k/submissions/1316522432/
+https://leetcode.com/problems/subarray-sum-equals-k/submissions/685865575/
 
 Runtime
 
-22 ms
+31 ms
 
 Memory
 
-47.1 MB
+62.9 MB
 
 ## Notes
 

@@ -11,7 +11,7 @@ Topic Tags
 
 Language
 
-Python3
+C++
 
 Submission Date
 
@@ -19,15 +19,15 @@ Submission Date
 
 Problem URL
 
-https://leetcode.com/problems/product-of-array-except-self/submissions/2083656063/
+https://leetcode.com/problems/product-of-array-except-self/submissions/730001535/
 
 Runtime
 
-44 ms
+29 ms
 
 Memory
 
-27.7 MB
+23.9 MB
 
 ## Notes
 

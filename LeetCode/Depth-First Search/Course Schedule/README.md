@@ -21,15 +21,15 @@ Submission Date
 
 Problem URL
 
-https://leetcode.com/problems/course-schedule/submissions/2083785091/
+https://leetcode.com/problems/course-schedule/submissions/2083794278/
 
 Runtime
 
-8 ms
+7 ms
 
 Memory
 
-20.5 MB
+20.3 MB
 
 ## Notes
 

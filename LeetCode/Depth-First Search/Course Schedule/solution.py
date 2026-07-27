@@ -7,25 +7,25 @@ class Solution:
         for elm in prerequisites:
             a = elm[0]
             b = elm[1]
-            g[a].append(b)
-            indegree[b] += 1
+            g[b].append(a)
+            indegree[a] += 1
         
         v = []
-        q = []
+        q = deque([])
 
         for i in range(numCourses):
             if indegree[i] == 0:
-                heapq.heappush(q, i)
+                q.append(i)
                 v.append(i)
         
         while q:
-            f = heapq.heappop(q)
+            f = q.popleft()
 
             for x in g[f]:
                 indegree[x] -= 1
 
                 if indegree[x] == 0:
-                    heapq.heappush(q,x)
+                    q.append(x)
                     v.append(x)
         
         if len(v) == numCourses:

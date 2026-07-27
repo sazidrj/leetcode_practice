@@ -14,7 +14,7 @@ Topic Tags
 
 Language
 
-C++
+Java
 
 Submission Date
 
@@ -22,7 +22,7 @@ Submission Date
 
 Problem URL
 
-https://leetcode.com/problems/kth-largest-element-in-an-array/solutions/
+https://leetcode.com/problems/kth-largest-element-in-an-array/submissions/2083454796/
 
 Runtime
 
@@ -30,7 +30,7 @@ Runtime
 
 Memory
 
-69 MB
+76.3 MB
 
 ## Notes
 

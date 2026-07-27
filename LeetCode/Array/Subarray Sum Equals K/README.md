@@ -12,7 +12,7 @@ Topic Tags
 
 Language
 
-Python3
+Java
 
 Submission Date
 
@@ -20,15 +20,15 @@ Submission Date
 
 Problem URL
 
-https://leetcode.com/problems/subarray-sum-equals-k/submissions/2083680057/
+https://leetcode.com/problems/subarray-sum-equals-k/submissions/2083686656/
 
 Runtime
 
-35 ms
+23 ms
 
 Memory
 
-21.8 MB
+49 MB
 
 ## Notes
 

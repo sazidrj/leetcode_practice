@@ -13,7 +13,7 @@ Topic Tags
 
 Language
 
-Java
+C++
 
 Submission Date
 
@@ -21,15 +21,15 @@ Submission Date
 
 Problem URL
 
-https://leetcode.com/problems/course-schedule-iii/submissions/2087550518/
+https://leetcode.com/problems/course-schedule-iii/submissions/2087558291/
 
 Runtime
 
-34 ms
+11 ms
 
 Memory
 
-54.7 MB
+60.5 MB
 
 ## Notes
 

@@ -13,23 +13,23 @@ Topic Tags
 
 Language
 
-Java
+Python3
 
 Submission Date
 
-2026-07-30
+2026-07-31
 
 Problem URL
 
-https://leetcode.com/problems/course-schedule-iv/submissions/2087922389/
+https://leetcode.com/problems/course-schedule-iv/submissions/2088882355/
 
 Runtime
 
-28 ms
+11 ms
 
 Memory
 
-47.5 MB
+19.8 MB
 
 ## Notes
 

@@ -13,7 +13,7 @@ Topic Tags
 
 Language
 
-Java
+Python3
 
 Submission Date
 
@@ -21,15 +21,15 @@ Submission Date
 
 Problem URL
 
-https://leetcode.com/problems/design-add-and-search-words-data-structure/submissions/2094109597/
+https://leetcode.com/problems/design-add-and-search-words-data-structure/submissions/2094235816/
 
 Runtime
 
-242 ms
+1370 ms
 
 Memory
 
-273.8 MB
+80.6 MB
 
 ## Notes
 
